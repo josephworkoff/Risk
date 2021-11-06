@@ -1,5 +1,5 @@
 # Risk
-Google Web Toolkit-based browser Risk game
+Google Web Toolkit-based browser Risk game<br>
 Currently hosted at: http://jwork967.kutztown.edu:8080/Risk/
 
 Javadoc: https://kuvapcsitrd01.kutztown.edu/~jwork967/Risk/
