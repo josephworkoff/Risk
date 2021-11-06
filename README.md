@@ -36,9 +36,11 @@ Alternatively, the initial game state can be seeded with a URL Get query string 
 
 <h2>URL Options:</h2>
 
-?online parameter triggers an internet game. No other URL options will be applied if this option exists.<br>
+Local games are played with two players at one screen, or one player against an AI player.<br>
 
-Local games support the following setup parameters:<br><br>
+?online parameter queues for an internet game, which will begin when two clients access the URL at once. No other URL options will be applied if this option exists.<br>
+
+Local games support the following setup parameters:<br>
 
 Bots can be enabled with " ?bots=[1|2] ". <br>
 The delay before bots' actions can be changed with " ?bots=[1|2]&delay=[time in ms]] ".<br>
