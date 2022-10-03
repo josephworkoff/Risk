@@ -1,8 +1,7 @@
 # Risk
-Google Web Toolkit-based browser Risk game<br>
-Currently hosted at: http://jwork967.kutztown.edu:8080/Risk/
+Google Web Toolkit-based browser Risk game hosted using Apache Tomcat<br>
 
-Javadoc: https://kuvapcsitrd01.kutztown.edu/~jwork967/Risk/
+Currently unavailable while migrating platforms.
 
 <h2>Game Rules:</h2><br>
     At the start of the game, territories are automatically randomly assigned to each player or neutral. Afterward, players alternate placing 2 troops between one or two of their territories. Between each player, the neutral party randomly selects a neutral territory to place one troop in. This continues until both players have placed 40 troops. Player 1 (Red) moves first.<br>
@@ -51,27 +50,6 @@ Cards can be given to players at the start of the game with<br>
 Initial territory ownership and occupancy can be seeded with<br>
     [Territory ID 1-42]=[R|B][Occupancy] (eg. ?1=R3 begins the game with Territory 1 Alaska owned by Red with 3 troops in it.)     <br>
     If any territories are seeded through get parameters, any territories not seeded will be designated neutral. This will also skip the setup phase.<br>
-
-
-
-
-<h3>Sample Query Strings: (All create local games)</h3>
-
-**Half Red/Half Blue**<br>
-http://jwork967.kutztown.edu:8080/Risk/?1=B3&2=R3&3=B3&4=R3&5=B3&6=R3&7=B3&8=R3&9=B3&10=R3&11=B3&12=R3&13=B3&14=R3&15=B3&16=R3&17=B3&18=R3&19=B3&20=R3&21=B3&22=R3&23=B3&24=R3&25=B3&26=R3&27=B3&28=R3&29=B3&30=R3&31=B3&32=R3&33=B3&34=R3&35=B3&36=R3&37=B3&38=R3&39=B3&40=R3&41=B3&42=R3
-
-**Half Red/Half Blue, 3 cards each**<br>
-http://jwork967.kutztown.edu:8080/Risk/?1=R3&2=R3&3=R3&4=R3&5=R3&6=R3&7=R3&8=R3&9=R3&10=R3&11=R3&12=R3&13=R3&14=R3&15=R3&16=R3&17=R3&18=R3&19=R3&20=R3&21=R3&22=R3&23=B3&24=B3&25=B3&26=B3&27=B3&28=B3&29=B3&30=B3&31=B3&32=B3&33=B3&34=B3&35=B3&36=B3&37=B3&38=B3&39=B3&40=B3&41=B3&42=B3&RC=0W&RC=2C&RC=3A&BC=0W&BC=6I&BC=8C
-
-**41 Red/1 Blue**<br>
-http://jwork967.kutztown.edu:8080/Risk/?1=R3&2=R3&3=R3&4=R3&5=R3&6=R3&7=R3&8=R3&9=R3&10=R3&11=R3&12=R3&13=R3&14=R3&15=R3&16=R3&17=R3&18=R3&19=R3&20=R3&21=R3&22=R3&23=R3&24=R3&25=R3&26=R3&27=R3&28=R3&29=R3&30=R3&31=R3&32=R3&33=R3&34=R3&35=R3&36=R3&37=R3&38=R3&39=R3&40=R3&41=R3&42=B1
-
-**3 Cards each, territories unseeded.**<br>
-http://jwork967.kutztown.edu:8080/Risk/?RC=0W&RC=2C&RC=3A&BC=0W&BC=6I&BC=8C
-
-**1 Human, 1 Bot, 2 second delay.**<br>
-http://jwork967.kutztown.edu:8080/Risk/?players=2&bots=1&delay=2000
-
 
 
 <h2>Cheats/Testing:</h2>
